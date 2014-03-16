@@ -1,4 +1,4 @@
-heidi
+Heidi
 =====
 
-A port of Mark Otto's Hyde theme to Ghost
+Heidi is a port of Mark Otto's Hyde theme (of Jekyll fame) to Ghost.
