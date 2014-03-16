@@ -1,0 +1,19 @@
+{{!< default}}
+
+<div class="posts">
+  {{#foreach posts}}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{url}}">
+        {{{title}}}
+      </a>
+    </h1>
+
+    <span class="post-date">{{date format='YYYY-MM-DD'}}</span>
+
+    {{content}}
+  </div>
+  {{/foreach}}
+
+  {{pagination}}
+</div>
