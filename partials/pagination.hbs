@@ -1,12 +1,12 @@
 <div class="pagination">
-  {{#if prev}}
-    <a class="pagination-item older" href="{{pageUrl prev}}">Newer</a>
-  {{else}}
-    <span class="pagination-item older">Newer</span>
-  {{/if}}
   {{#if next}}
-    <a class="pagination-item newer" href="{{pageUrl next}}">Older</a>
+    <a class="pagination-item older" href="{{page_url next}}">Older</a>
   {{else}}
-    <span class="pagination-item newer">Older</span>
+    <span class="pagination-item older">Older</span>
+  {{/if}}
+  {{#if prev}}
+    <a class="pagination-item newer" href="{{page_url prev}}">Newer</a>
+  {{else}}
+    <span class="pagination-item newer">Newer</span>
   {{/if}}
 </div>
