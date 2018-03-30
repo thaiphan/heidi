@@ -1,4 +1,8 @@
 {
-    "name": "Heidi",
-    "version": "0.1.1"
+    "name": "heidi",
+    "version": "0.1.1",
+    "author": {
+        "name": "Thai Phan",
+        "email": "thai@outlook.com"
+    }
 }
