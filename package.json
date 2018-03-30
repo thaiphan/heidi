@@ -4,5 +4,8 @@
     "author": {
         "name": "Thai Phan",
         "email": "thai@outlook.com"
+    },
+    "config": {
+        "posts_per_page": 5
     }
 }
